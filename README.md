@@ -1,2 +1,7 @@
+
 # pupies-code
-Code dumps
+
+List of my code projects created
+
+
+
