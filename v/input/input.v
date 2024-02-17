@@ -45,10 +45,13 @@ fn main(){
      mut prelim_grade := ((class_standing * 2) + exam_rating_int) / 3
 
 	 /*Outputs*/
+	
+	// NOTE : vlang equivalent string format by adding : and formatter i.e %.2f = {$var:.2f}
+
 	 println("\n\t\t----------------------------------------------")
 	 println("\t\t\tName : $name\tCourse: $course")
-	 println("\t\t\t\t----Average----\n\t\tQuiz Average: $quiz_avg\n\t\tRecitation Average: $recitation_avg\n\t\tProject Average: $project_avg")
-	 println("\n\t\tClass Standing : ${class_standing}\tPrelim Grade: $prelim_grade")
+	 println("\t\t\t\t----Average----\n\t\tQuiz Average: ${quiz_avg:.2f}\n\t\tRecitation Average: ${recitation_avg:.2f}\n\t\tProject Average: {${project_avg:.2f}")
+	 println("\n\t\tClass Standing : ${class_standing:.2f}\tPrelim Grade: ${prelim_grade:.2f}")
 	 println("\t\t----------------------------------------------");
 
 }
