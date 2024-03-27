@@ -17,4 +17,11 @@ In vlang mutable variables are declared as `mut <variable_name> := <value>`
 changing the element in vlang is `<variable_name> = <value`
 
 ### F string style
+
 vlang uses `${<variable_name} to format on println`
+
+### While, Do while??
+
+Vlang doesn't support at this moment the while and do while, implementation are done through the `for loop`
+
+`for <variable_name>{}`, vlang also uses python-like / java simple for loop then also c like for loop
