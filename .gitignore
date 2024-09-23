@@ -1,0 +1,68 @@
+# Ignore binary files and class files for Java, C#, and V
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+# Generated files
+*.log
+*.out
+*.aux
+*.tmp
+*.pid
+# Maven directories
+target/
+# Gradle directories
+.gradle/
+build/
+
+# C#
+*.exe
+*.dll
+*.pdb
+*.mdb
+*.obj
+*.so
+*.class
+*.user
+*.cache
+*.csproj.user
+*.suo
+*.vs/
+bin/
+obj/
+.vscode/
+
+# V language
+*.v.c
+*.o
+*.out
+*.exe
+*.dSYM/
+*.v.log
+
+# IDE Specific ignores (Eclipse, IntelliJ, etc.)
+*.idea/
+*.project
+*.classpath
+*.settings/
+.vscode/
+*.iml
+
+# Ignore directories that may contain binaries or build artifacts
+/build/
+dist/
+out/
+Release/
+Debug/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*.orig
