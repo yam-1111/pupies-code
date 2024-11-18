@@ -2,7 +2,7 @@
  * @author Hinay, Anthony John C.
  */
 
- package act6;
+//  package act6;
 
 import java.util.Scanner;
 
